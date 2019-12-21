@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18132A3223ACF28D003BB146 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18132A3123ACF28D003BB146 /* main.cpp */; };
+		18132A3E23ACF559003BB146 /* gtk in Frameworks */ = {isa = PBXBuildFile; fileRef = 18132A3D23ACF559003BB146 /* gtk */; };
+		18132A4223ACF68C003BB146 /* gdk in Frameworks */ = {isa = PBXBuildFile; fileRef = 18132A4123ACF68C003BB146 /* gdk */; };
+		18132A4623ACF7AD003BB146 /* gtk-2.0 in Frameworks */ = {isa = PBXBuildFile; fileRef = 18132A4523ACF7AD003BB146 /* gtk-2.0 */; };
+		18132A4823ACFCA8003BB146 /* glib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18132A4723ACFCA8003BB146 /* glib */; };
+		18132A4A23AD011A003BB146 /* glibconfig.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 18132A4923AD011A003BB146 /* glibconfig.h */; };
+		18132A4C23AD01A4003BB146 /* pango in Frameworks */ = {isa = PBXBuildFile; fileRef = 18132A4B23AD01A4003BB146 /* pango */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18132A2C23ACF28D003BB146 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18132A2E23ACF28D003BB146 /* AckerGraph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AckerGraph; sourceTree = BUILT_PRODUCTS_DIR; };
+		18132A3123ACF28D003BB146 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		18132A3923ACF4E3003BB146 /* gtk-2.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "gtk-2.0"; path = "../../../../../../usr/local/Cellar/gtk+/2.24.32_3/lib/gtk-2.0"; sourceTree = "<group>"; };
+		18132A3B23ACF513003BB146 /* gtk+ */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "gtk+"; path = "../../../../../../usr/local/Cellar/gtk+"; sourceTree = "<group>"; };
+		18132A3D23ACF559003BB146 /* gtk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = gtk; path = "../../../../../../usr/local/Cellar/gtk+/2.24.32_3/include/gtk-2.0/gtk"; sourceTree = "<group>"; };
+		18132A3F23ACF593003BB146 /* gtk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gtk.h; path = "../../../../../../usr/local/Cellar/gtk+/2.24.32_3/include/gtk-2.0/gtk/gtk.h"; sourceTree = "<group>"; };
+		18132A4123ACF68C003BB146 /* gdk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = gdk; path = "../../../../../../usr/local/Cellar/gtk+/2.24.32_3/include/gtk-2.0/gdk"; sourceTree = "<group>"; };
+		18132A4323ACF6C8003BB146 /* gdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gdk.h; path = "../../../../../../usr/local/Cellar/gtk+/2.24.32_3/include/gtk-2.0/gdk/gdk.h"; sourceTree = "<group>"; };
+		18132A4523ACF7AD003BB146 /* gtk-2.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "gtk-2.0"; path = "../../../../../../usr/local/Cellar/gtk+/2.24.32_3/include/gtk-2.0"; sourceTree = "<group>"; };
+		18132A4723ACFCA8003BB146 /* glib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = glib; path = "../../../../../../usr/local/Cellar/glib/2.62.2/include/glib-2.0/glib"; sourceTree = "<group>"; };
+		18132A4923AD011A003BB146 /* glibconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = glibconfig.h; path = "../../../../../../usr/local/Cellar/glib/2.62.2/lib/glib-2.0/include/glibconfig.h"; sourceTree = "<group>"; };
+		18132A4B23AD01A4003BB146 /* pango */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pango; path = ../../../../../../usr/local/Cellar/pango; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18132A2B23ACF28D003BB146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18132A4C23AD01A4003BB146 /* pango in Frameworks */,
+				18132A4A23AD011A003BB146 /* glibconfig.h in Frameworks */,
+				18132A4823ACFCA8003BB146 /* glib in Frameworks */,
+				18132A4623ACF7AD003BB146 /* gtk-2.0 in Frameworks */,
+				18132A4223ACF68C003BB146 /* gdk in Frameworks */,
+				18132A3E23ACF559003BB146 /* gtk in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18132A2523ACF28D003BB146 = {
+			isa = PBXGroup;
+			children = (
+				18132A3023ACF28D003BB146 /* AckerGraph */,
+				18132A2F23ACF28D003BB146 /* Products */,
+				18132A3823ACF4E3003BB146 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18132A2F23ACF28D003BB146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18132A2E23ACF28D003BB146 /* AckerGraph */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18132A3023ACF28D003BB146 /* AckerGraph */ = {
+			isa = PBXGroup;
+			children = (
+				18132A3123ACF28D003BB146 /* main.cpp */,
+			);
+			path = AckerGraph;
+			sourceTree = "<group>";
+		};
+		18132A3823ACF4E3003BB146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18132A4B23AD01A4003BB146 /* pango */,
+				18132A4923AD011A003BB146 /* glibconfig.h */,
+				18132A4723ACFCA8003BB146 /* glib */,
+				18132A4523ACF7AD003BB146 /* gtk-2.0 */,
+				18132A4323ACF6C8003BB146 /* gdk.h */,
+				18132A4123ACF68C003BB146 /* gdk */,
+				18132A3F23ACF593003BB146 /* gtk.h */,
+				18132A3D23ACF559003BB146 /* gtk */,
+				18132A3B23ACF513003BB146 /* gtk+ */,
+				18132A3923ACF4E3003BB146 /* gtk-2.0 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18132A2D23ACF28D003BB146 /* AckerGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18132A3523ACF28E003BB146 /* Build configuration list for PBXNativeTarget "AckerGraph" */;
+			buildPhases = (
+				18132A2A23ACF28D003BB146 /* Sources */,
+				18132A2B23ACF28D003BB146 /* Frameworks */,
+				18132A2C23ACF28D003BB146 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AckerGraph;
+			productName = AckerGraph;
+			productReference = 18132A2E23ACF28D003BB146 /* AckerGraph */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18132A2623ACF28D003BB146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "高善勋";
+				TargetAttributes = {
+					18132A2D23ACF28D003BB146 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 18132A2923ACF28D003BB146 /* Build configuration list for PBXProject "AckerGraph" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18132A2523ACF28D003BB146;
+			productRefGroup = 18132A2F23ACF28D003BB146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18132A2D23ACF28D003BB146 /* AckerGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18132A2A23ACF28D003BB146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18132A3223ACF28D003BB146 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18132A3323ACF28D003BB146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18132A3423ACF28E003BB146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18132A3623ACF28E003BB146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Cellar/gtk+/**",
+					"/usr/local/glib/**",
+					"/usr/local/Cellar/**",
+					"/usr/local/Cellar/glib/2.62.2/include/glib-2.0/**",
+					"/usr/local/Cellar/pango/**",
+					"/usr/local/Cellar/glib/2.62.2/lib/glib-2.0/include/**",
+					"/usr/local/Cellar/harfbuzz/**",
+				);
+				OTHER_CFLAGS = (
+					"-I/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include",
+					"-I/usr/local/Cellar/gtk+3/3.24.12_1/include/gtk-3.0",
+					"-I/usr/local/Cellar/glib/2.62.3/include/gio-unix-2.0",
+					"-I/usr/local/Cellar/cairo/1.16.0_2/include/cairo",
+					"-I/usr/local/Cellar/libepoxy/1.5.4/include",
+					"-I/usr/local/Cellar/pango/1.44.7/include/pango-1.0",
+					"-I/usr/local/Cellar/fribidi/1.0.7/include/fribidi",
+					"-I/usr/local/Cellar/harfbuzz/2.6.4/include/harfbuzz",
+					"-I/usr/local/Cellar/graphite2/1.3.13/include",
+					"-I/usr/local/Cellar/atk/2.34.1/include/atk-1.0",
+					"-I/usr/local/Cellar/cairo/1.16.0_2/include/cairo",
+					"-I/usr/local/Cellar/pixman/0.38.4/include/pixman-1",
+					"-I/usr/local/Cellar/fontconfig/2.13.1/include",
+					"-I/usr/local/opt/freetype/include/freetype2",
+					"-I/usr/local/Cellar/libpng/1.6.37/include/libpng16",
+					"-I/usr/local/Cellar/gdk-pixbuf/2.40.0/include/gdk-pixbuf-2.0",
+					"-I/usr/local/Cellar/glib/2.62.3/include",
+					"-I/usr/local/Cellar/glib/2.62.3/include/glib-2.0",
+					"-I/usr/local/Cellar/glib/2.62.3/lib/glib-2.0/include",
+					"-I/usr/local/opt/gettext/include",
+					"-I/usr/local/Cellar/pcre/8.43/include",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/Cellar/gtk+3/3.24.12_1/lib",
+					"-L/usr/local/Cellar/pango/1.44.7/lib",
+					"-L/usr/local/Cellar/harfbuzz/2.6.4/lib",
+					"-L/usr/local/Cellar/atk/2.34.1/lib",
+					"-L/usr/local/Cellar/cairo/1.16.0_2/lib",
+					"-L/usr/local/Cellar/gdk-pixbuf/2.40.0/lib",
+					"-L/usr/local/Cellar/glib/2.62.3/lib",
+					"-L/usr/local/opt/gettext/lib",
+					"-lgtk-3",
+					"-lgdk-3",
+					"-framework",
+					Cocoa,
+					"-framework",
+					Carbon,
+					"-framework",
+					CoreGraphics,
+					"-lpangocairo-1.0",
+					"-lpango-1.0",
+					"-lharfbuzz",
+					"-latk-1.0",
+					"-lcairo-gobject",
+					"-lcairo",
+					"-lgdk_pixbuf-2.0",
+					"-lgio-2.0",
+					"-lgobject-2.0",
+					"-lglib-2.0",
+					"-lintl",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18132A3723ACF28E003BB146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Cellar/gtk+/**",
+					"/usr/local/glib/**",
+					"/usr/local/Cellar/**",
+					"/usr/local/Cellar/glib/2.62.2/include/glib-2.0/**",
+					"/usr/local/Cellar/pango/**",
+					"/usr/local/Cellar/glib/2.62.2/lib/glib-2.0/include/**",
+					"/usr/local/Cellar/harfbuzz/**",
+				);
+				OTHER_CFLAGS = (
+					"-I/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include",
+					"-I/usr/local/Cellar/gtk+3/3.24.12_1/include/gtk-3.0",
+					"-I/usr/local/Cellar/glib/2.62.3/include/gio-unix-2.0",
+					"-I/usr/local/Cellar/cairo/1.16.0_2/include/cairo",
+					"-I/usr/local/Cellar/libepoxy/1.5.4/include",
+					"-I/usr/local/Cellar/pango/1.44.7/include/pango-1.0",
+					"-I/usr/local/Cellar/fribidi/1.0.7/include/fribidi",
+					"-I/usr/local/Cellar/harfbuzz/2.6.4/include/harfbuzz",
+					"-I/usr/local/Cellar/graphite2/1.3.13/include",
+					"-I/usr/local/Cellar/atk/2.34.1/include/atk-1.0",
+					"-I/usr/local/Cellar/cairo/1.16.0_2/include/cairo",
+					"-I/usr/local/Cellar/pixman/0.38.4/include/pixman-1",
+					"-I/usr/local/Cellar/fontconfig/2.13.1/include",
+					"-I/usr/local/opt/freetype/include/freetype2",
+					"-I/usr/local/Cellar/libpng/1.6.37/include/libpng16",
+					"-I/usr/local/Cellar/gdk-pixbuf/2.40.0/include/gdk-pixbuf-2.0",
+					"-I/usr/local/Cellar/glib/2.62.3/include",
+					"-I/usr/local/Cellar/glib/2.62.3/include/glib-2.0",
+					"-I/usr/local/Cellar/glib/2.62.3/lib/glib-2.0/include",
+					"-I/usr/local/opt/gettext/include",
+					"-I/usr/local/Cellar/pcre/8.43/include",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/Cellar/gtk+3/3.24.12_1/lib",
+					"-L/usr/local/Cellar/pango/1.44.7/lib",
+					"-L/usr/local/Cellar/harfbuzz/2.6.4/lib",
+					"-L/usr/local/Cellar/atk/2.34.1/lib",
+					"-L/usr/local/Cellar/cairo/1.16.0_2/lib",
+					"-L/usr/local/Cellar/gdk-pixbuf/2.40.0/lib",
+					"-L/usr/local/Cellar/glib/2.62.3/lib",
+					"-L/usr/local/opt/gettext/lib",
+					"-lgtk-3",
+					"-lgdk-3",
+					"-framework",
+					Cocoa,
+					"-framework",
+					Carbon,
+					"-framework",
+					CoreGraphics,
+					"-lpangocairo-1.0",
+					"-lpango-1.0",
+					"-lharfbuzz",
+					"-latk-1.0",
+					"-lcairo-gobject",
+					"-lcairo",
+					"-lgdk_pixbuf-2.0",
+					"-lgio-2.0",
+					"-lgobject-2.0",
+					"-lglib-2.0",
+					"-lintl",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18132A2923ACF28D003BB146 /* Build configuration list for PBXProject "AckerGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18132A3323ACF28D003BB146 /* Debug */,
+				18132A3423ACF28E003BB146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18132A3523ACF28E003BB146 /* Build configuration list for PBXNativeTarget "AckerGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18132A3623ACF28E003BB146 /* Debug */,
+				18132A3723ACF28E003BB146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18132A2623ACF28D003BB146 /* Project object */;
+}
