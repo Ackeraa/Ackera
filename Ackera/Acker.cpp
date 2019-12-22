@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+
 #include "Acker.h"
 
 #define inf 1e8
@@ -25,24 +26,27 @@ Acker::~Acker()
 void Acker::Move(int x, int y)
 {
     B.Move(x, y, opps);
-    B.Print(x, y);
+//    B.Print(x, y);
 }
 
-void Acker::Move()
+pair<int, int> Acker::Move()
 {
     step++;
     if (step == 1)
     {
         B.Move(8, 8, who);
-        B.Print(8, 8);
+        return make_pair(8, 8);
+        //B.Print(8, 8);
     }
     else
     {
         int tmp = AlphaBeta(maxdep, -inf, inf, who);
         B.Move(x, y, who);
-        cout<<tmp<<endl;
-        B.Print(x, y);
+        return make_pair(x, y);
+       // cout<<tmp<<endl;
+       // B.Print(x, y);
     }
+    
 }
 
 void Acker::Unmove(int x, int y)

@@ -512,61 +512,12 @@ int Board::EvaluateChess(int player)
     return sum;
 }
 
-void Board::Prc(char c, int n)
+void Board::init()
 {
-    for (int i=1;i<=n;i++)
-    {
-        cout<<c;
-    }
+    
 }
 
-void Board::Prc(int n)
+void Board::print(int x, int y)
 {
-    for (int i=1;i<=n;i++)
-    {
-        cout<<endl;
-    }
-}
-
-void Board::Prc(char c)
-{
-    cout<<c;
-}
-
-void Board::Prcq(int x)
-{
-    if (x == 0) cout<<"*";
-    else if (x == 1) cout<<"o";
-    else if (x == 2) cout << "X";
-    else if (x == 3) cout << "O";
-    else cout <<" ";
-}
-
-void Board::Print(int x, int y)
-{
-    Prc(10);
-    Prc(' ', 16);for (int i=1;i<=15;i++) printf("  %c   ", i + 64);cout<<endl;
-    Prc(' ', 15); Prc('_',91); Prc(1);
-    for (int j=1;j<=15;j++)
-    {
-        Prc(' ', 15); for (int i=1;i<=15;i++) static_cast<void>(Prc('|')), Prc(' ',5); Prc('|'); Prc(1);
-        Prc(' ', 12); cout<<15-j + 1<<' '; if (j > 6) cout<<' ';
-        for (int i=1;i<=15;i++)
-        {
-            static_cast<void>(Prc('|'));
-            static_cast<void>(Prc(' ', 2));
-            if (j == x && i == y)
-            {
-                static_cast<void>(Prcq(a[j][i] + 2));
-            }
-            else
-            {
-                static_cast<void>(Prcq(a[j][i]));
-            }
-            Prc(' ',2);
-        }
-        Prc('|');Prc(1);
-        Prc(' ', 15); for (int i=1;i<=15;i++) static_cast<void>(Prc('|')), Prc('_',5); Prc('|'); Prc(1);
-    }
     
 }

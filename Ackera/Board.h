@@ -9,6 +9,7 @@
 #ifndef Board_h
 #define Board_h
 #include<string>
+#include<gtk/gtk.h>
 
 using namespace std;
 const int N(20);
@@ -24,6 +25,9 @@ private:
     const int score[16] = {50000, 4320, 720, 720, 720, 720, 720, 720,
                             720, 720, 720, 120, 120, 120, 20, 20};
     int row[N << 1], col[N << 1], dia[N << 1], bdia[N << 1];
+    GtkWidget *window;
+    GtkWidget *layout;
+    
 public:
     int a[N][N];
     struct Cor
@@ -33,11 +37,14 @@ public:
     int cnt = 0;
     Board();
     ~Board();
-    void Prc(char c, int n);
-    void Prc(int n);
-    void Prc(char c);
-    void Prcq(int x);
-    void Print(int x, int y);
+    void init();
+    GdkPixbuf *create_pixbuf(const gchar *filename);
+    void setBackground(GtkWidget *widget, int w, int h, const gchar *path);
+    void placePiece(gdouble x, gdouble y, const gchar *path);
+    gboolean mousePress(GtkWidget *widget, GdkEventButton *event, gpointer data);
+    
+    void print();
+    void print(int x, int y);
     void Move(int x, int y, int z);
     void Unmove(int x, int y, int z);
     void Findzone(int &lx, int &ly, int &rx, int & ry);

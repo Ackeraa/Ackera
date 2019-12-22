@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18672E1A2250D0A30069A20A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18672E192250D0A30069A20A /* main.cpp */; };
-		18672E232250D2F60069A20A /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18672E212250D2F60069A20A /* Board.cpp */; };
-		18672E272250D9490069A20A /* Acker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18672E262250D9490069A20A /* Acker.cpp */; };
-		18FC7E1123AF086500532C53 /* Gomoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18FC7E1023AF086500532C53 /* Gomoku.cpp */; };
+		18FC7DFE23AE18C000532C53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18FC7DFD23AE18C000532C53 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		18672E142250D0A30069A20A /* CopyFiles */ = {
+		18FC7DF823AE18C000532C53 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,19 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		18672E162250D0A30069A20A /* Ackera */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ackera; sourceTree = BUILT_PRODUCTS_DIR; };
-		18672E192250D0A30069A20A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		18672E202250D1280069A20A /* Board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
-		18672E212250D2F60069A20A /* Board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
-		18672E252250D72C0069A20A /* Acker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Acker.h; sourceTree = "<group>"; };
-		18672E262250D9490069A20A /* Acker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Acker.cpp; sourceTree = "<group>"; };
-		18F9D83C22599E36006DEED7 /* out.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = out.txt; sourceTree = "<group>"; };
-		18FC7E1023AF086500532C53 /* Gomoku.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gomoku.cpp; sourceTree = "<group>"; };
-		18FC7E1223AF087F00532C53 /* Gomoku.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gomoku.h; sourceTree = "<group>"; };
+		18FC7DFA23AE18C000532C53 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FC7DFD23AE18C000532C53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18672E132250D0A30069A20A /* Frameworks */ = {
+		18FC7DF723AE18C000532C53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,104 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18672E0D2250D0A30069A20A = {
+		18FC7DF123AE18C000532C53 = {
 			isa = PBXGroup;
 			children = (
-				18672E182250D0A30069A20A /* Ackera */,
-				18672E172250D0A30069A20A /* Products */,
+				18FC7DFC23AE18C000532C53 /* test */,
+				18FC7DFB23AE18C000532C53 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18672E172250D0A30069A20A /* Products */ = {
+		18FC7DFB23AE18C000532C53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18672E162250D0A30069A20A /* Ackera */,
+				18FC7DFA23AE18C000532C53 /* test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18672E182250D0A30069A20A /* Ackera */ = {
+		18FC7DFC23AE18C000532C53 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				18672E192250D0A30069A20A /* main.cpp */,
-				18F9D83C22599E36006DEED7 /* out.txt */,
-				18672E202250D1280069A20A /* Board.h */,
-				18672E212250D2F60069A20A /* Board.cpp */,
-				18672E252250D72C0069A20A /* Acker.h */,
-				18672E262250D9490069A20A /* Acker.cpp */,
-				18FC7E1023AF086500532C53 /* Gomoku.cpp */,
-				18FC7E1223AF087F00532C53 /* Gomoku.h */,
+				18FC7DFD23AE18C000532C53 /* main.cpp */,
 			);
-			path = Ackera;
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18672E152250D0A30069A20A /* Ackera */ = {
+		18FC7DF923AE18C000532C53 /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18672E1D2250D0A30069A20A /* Build configuration list for PBXNativeTarget "Ackera" */;
+			buildConfigurationList = 18FC7E0123AE18C000532C53 /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
-				18672E122250D0A30069A20A /* Sources */,
-				18672E132250D0A30069A20A /* Frameworks */,
-				18672E142250D0A30069A20A /* CopyFiles */,
+				18FC7DF623AE18C000532C53 /* Sources */,
+				18FC7DF723AE18C000532C53 /* Frameworks */,
+				18FC7DF823AE18C000532C53 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Ackera;
-			productName = Ackera;
-			productReference = 18672E162250D0A30069A20A /* Ackera */;
+			name = test;
+			productName = test;
+			productReference = 18FC7DFA23AE18C000532C53 /* test */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18672E0E2250D0A30069A20A /* Project object */ = {
+		18FC7DF223AE18C000532C53 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "高善勋";
 				TargetAttributes = {
-					18672E152250D0A30069A20A = {
-						CreatedOnToolsVersion = 10.2;
+					18FC7DF923AE18C000532C53 = {
+						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = 18672E112250D0A30069A20A /* Build configuration list for PBXProject "Ackera" */;
+			buildConfigurationList = 18FC7DF523AE18C000532C53 /* Build configuration list for PBXProject "test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 18672E0D2250D0A30069A20A;
-			productRefGroup = 18672E172250D0A30069A20A /* Products */;
+			mainGroup = 18FC7DF123AE18C000532C53;
+			productRefGroup = 18FC7DFB23AE18C000532C53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18672E152250D0A30069A20A /* Ackera */,
+				18FC7DF923AE18C000532C53 /* test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18672E122250D0A30069A20A /* Sources */ = {
+		18FC7DF623AE18C000532C53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18672E272250D9490069A20A /* Acker.cpp in Sources */,
-				18FC7E1123AF086500532C53 /* Gomoku.cpp in Sources */,
-				18672E232250D2F60069A20A /* Board.cpp in Sources */,
-				18672E1A2250D0A30069A20A /* main.cpp in Sources */,
+				18FC7DFE23AE18C000532C53 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		18672E1B2250D0A30069A20A /* Debug */ = {
+		18FC7DFF23AE18C000532C53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,7 +158,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -196,7 +176,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -204,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		18672E1C2250D0A30069A20A /* Release */ = {
+		18FC7E0023AE18C000532C53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +216,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -249,14 +228,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		18672E1E2250D0A30069A20A /* Debug */ = {
+		18FC7E0223AE18C000532C53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -316,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		18672E1F2250D0A30069A20A /* Release */ = {
+		18FC7E0323AE18C000532C53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -379,25 +358,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18672E112250D0A30069A20A /* Build configuration list for PBXProject "Ackera" */ = {
+		18FC7DF523AE18C000532C53 /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18672E1B2250D0A30069A20A /* Debug */,
-				18672E1C2250D0A30069A20A /* Release */,
+				18FC7DFF23AE18C000532C53 /* Debug */,
+				18FC7E0023AE18C000532C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18672E1D2250D0A30069A20A /* Build configuration list for PBXNativeTarget "Ackera" */ = {
+		18FC7E0123AE18C000532C53 /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18672E1E2250D0A30069A20A /* Debug */,
-				18672E1F2250D0A30069A20A /* Release */,
+				18FC7E0223AE18C000532C53 /* Debug */,
+				18FC7E0323AE18C000532C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18672E0E2250D0A30069A20A /* Project object */;
+	rootObject = 18FC7DF223AE18C000532C53 /* Project object */;
 }

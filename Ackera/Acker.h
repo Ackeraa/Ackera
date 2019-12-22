@@ -28,7 +28,7 @@ public:
     Acker(int who = 0, int opps = 1);
     ~Acker();
     void Move(int x, int y);
-    void Move();
+    std::pair<int, int> Move();
     void Unmove(int x, int y);
     void Unmove();
     void Print();
